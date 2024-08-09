@@ -1,0 +1,14 @@
+header{
+    background-color:#e77a77;
+    padding: 10px;
+}
+
+header img {
+    width: 100px;
+    height: auto;
+}
+
+.section-1{
+    background-image: url(cloudy-1869753_1280.jpg);
+    padding: 250px;
+}
