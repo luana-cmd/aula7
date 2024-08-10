@@ -1,35 +1,85 @@
 header {
-
-
-}
-
-
-
-
-
-
-
-
-
-
-
-body{
-    color: azure;
-    background-color: blueviolet;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-ul{
+    background-color: #efd9b4;
+    padding: 15px;
     display: flex;
     justify-content: space-between;
-    list-style-type: none;
+}
+
+
+header img {
+    width: 100px;
+    height: auto;
+}
+
+
+
+/* clc o ponto p chamar uma classe do html */
+.section-01 {
+    background-image: url(full-moon-1869760_1280.jpg);
+    padding: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* cover - pegar todo o espaço disponivel e  */
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
     align-items: center;
-    padding: 16px;
 }
 
-a{
-    color: rgb(0, 0, 0);
-    text-decoration: none;
+.section-01 button {
+    width: 150px;
+    height: 40px;
+    background-color: transparent;
+    border-radius: 10px;
 }
 
 
+.section-02 {
+    padding: 250px;
+    background-color: #d6a692;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.section-02 img {
+    width: 450px;
+    height: auto;
+}
+
+.section-02 h2 {
+    color: white;
+    font-size: 40px;
+    /* p trocar a cor da letra: color */
+}
+
+.section-02 p {
+    color: black;
+    font-size: 17px;
+    font-weight: 900;
+    margin-top: 15px;
+
+}
+
+
+.section-03 {
+    padding: 250px;
+    background-image: url(cloudy-1869753_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.section-03 h2 {
+    color: white;
+    font-size: 20px;
+}
+
+.section-03 p {
+    color: white;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+footer {}
