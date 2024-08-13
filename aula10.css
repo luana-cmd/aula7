@@ -1,37 +1,72 @@
+* {
+    /* usada para informar que existem itens que irão recair sobre todo o html*/
+    margin: 0; /* zerando a margin "top, button, right, left"*/
+    padding: 0; /* zerando o preenchimento*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /* habilitando uma fonte padrão para toda a página*/
+    list-style: none; /* removendo os estilos de listas*/
+}
+
+/* chamamos nosso cabeçalho para estilização (header) */
 header {
-    background-color: #efd9b4;
-    padding: 15px;
-    display: flex;
-    justify-content: space-between;
+    background-color: #efd9b4; /*habilitando uma cor de fundo*/
+    padding: 15px; /*colocando um tamanho (preenchimento no header)*/
+    display: flex; /* tornando nosso header flex - deixando os itens lado a lado*/
+    justify-content: space-between; /* justificatica do conteudo - a que podemos ajustar conforme nossa necessidade */
+    align-items: center; /* alinhamento na vertical, deixando habilitada ao centro*/
 }
 
-
+/* aqui chamaos nossa logo (img) para estilização */
 header img {
-    width: 100px;
-    height: auto;
+    width: 100px; /*largura da imagem*/
+    height: auto; /* altura da imagem*/
 }
 
+/* aq chamamos nossa lista não ordenada para estilização */
+header nav ul {
+    display: flex; /* tornamos nossa lista não ordenada em (flex), deixando os itens pertencentes a ela, lado a lado*/
+}
+
+/* chamamos nossa lista (li) para estilização  */
+header nav ul li {
+    list-style: none; /* estilo de lista desabilitada*/
+    margin-right: 10px; /*espaçamento entre as (li)*/
+}
+
+/* aqui chamamos nossa ancora para estilização */
+header nav ul li a {
+    text-decoration: none; /* decoração do texto (sublinhado) desabilitado (none)*/
+    color: black; /*cor da letra */
+} 
 
 
-/* clc o ponto p chamar uma classe do html */
+
+
+/* coloca o ponto p chamar uma classe do html */
+
+/*primeira sessão para estilização*/
 .section-01 {
-    background-image: url(full-moon-1869760_1280.jpg);
-    padding: 300px;
-    background-repeat: no-repeat;
-    background-size: cover;
+    padding: 300px; /*preenchimento/tamanho da sessão*/
+    display: flex; /*tornando a sessão flex*/
+   justify-content: center; /* justificando conteudo ao centro (horizontal)*/
+   align-items:center ; /* alinhando os itens ao centro vertical*/
+   background-image: url(full-moon-1869760_1280.jpg); /* usada para habilitar uma imagem no fundo da sessão*/
+     background-size: cover; /* utilizada para que a imagem preencha todo o espaço disponivel*/
+     background-repeat: no-repeat; /* para imagem não se repetir dentro da sessão */
     /* cover - pegar todo o espaço disponivel e  */
-    background-position: center;
+    background-position: center; /* posicionamento da imagem*/
 
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 .section-01 button {
-    width: 150px;
-    height: 40px;
-    background-color: transparent;
-    border-radius: 10px;
+    width: 150px; /* largura do botão */
+    height: 40px; /* altura do botao*/
+    border-radius: 10px; /*arredodamento da borda*/
+    background-color: transparent;  /*cor do fundo*/
+    
 }
 
 
@@ -74,12 +109,44 @@ header img {
 .section-03 h2 {
     color: white;
     font-size: 20px;
+
 }
 
 .section-03 p {
     color: white;
     font-size: 20px;
     margin-top: 15px;
+
 }
 
-footer {}
+
+.section-03 {
+    background-image: url(cloudy-1869753_1280.jpg);
+    padding: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /* cover - pegar todo o espaço disponivel e  */
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}     
+
+
+.section-03 p {
+    display: flex;
+    justify-content: center;
+    color: azure;
+    font-size: 25px;
+}
+
+.section-03 h2 {
+    display: flex;
+    justify-content: center;
+    color: azure;
+    font-size: 25px;
+    font-weight: bold;
+}
