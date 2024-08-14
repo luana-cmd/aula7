@@ -1,93 +1,126 @@
 * {
     /* usada para informar que existem itens que irão recair sobre todo o html*/
-    margin: 0; /* zerando a margin "top, button, right, left"*/
-    padding: 0; /* zerando o preenchimento*/
-    font-family: Verdana, Geneva, Tahoma, sans-serif; /* habilitando uma fonte padrão para toda a página*/
-    list-style: none; /* removendo os estilos de listas*/
+    margin: 0;
+    /* zerando a margin "top, button, right, left"*/
+    padding: 0;
+    /* zerando o preenchimento*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* habilitando uma fonte padrão para toda a página*/
+    list-style: none;
+    /* removendo os estilos de listas*/
 }
 
 /* chamamos nosso cabeçalho para estilização (header) */
 header {
-    background-color: #efd9b4; /*habilitando uma cor de fundo*/
-    padding: 15px; /*colocando um tamanho (preenchimento no header)*/
-    display: flex; /* tornando nosso header flex - deixando os itens lado a lado*/
-    justify-content: space-between; /* justificatica do conteudo - a que podemos ajustar conforme nossa necessidade */
-    align-items: center; /* alinhamento na vertical, deixando habilitada ao centro*/
+    background-color: #efd9b4;
+    /*habilitando uma cor de fundo*/
+    padding: 15px;
+    /*colocando um tamanho (preenchimento no header)*/
+    display: flex;
+    /* tornando nosso header flex - deixando os itens lado a lado*/
+    justify-content: space-between;
+    /* justificatica do conteudo - a que podemos ajustar conforme nossa necessidade */
+    align-items: center;
+    /* alinhamento na vertical, deixando habilitada ao centro*/
 }
 
 /* aqui chamaos nossa logo (img) para estilização */
 header img {
-    width: 100px; /*largura da imagem*/
-    height: auto; /* altura da imagem*/
+    width: 100px;
+    /*largura da imagem*/
+    height: auto;
+    /* altura da imagem*/
 }
 
 /* aq chamamos nossa lista não ordenada para estilização */
 header nav ul {
-    display: flex; /* tornamos nossa lista não ordenada em (flex), deixando os itens pertencentes a ela, lado a lado*/
+    display: flex;
+    /* tornamos nossa lista não ordenada em (flex), deixando os itens pertencentes a ela, lado a lado*/
 }
 
 /* chamamos nossa lista (li) para estilização  */
 header nav ul li {
-    list-style: none; /* estilo de lista desabilitada*/
-    margin-right: 10px; /*espaçamento entre as (li)*/
+    list-style: none;
+    /* estilo de lista desabilitada*/
+    margin-right: 10px;
+    /*espaçamento entre as (li)*/
 }
 
 /* aqui chamamos nossa ancora para estilização */
 header nav ul li a {
-    text-decoration: none; /* decoração do texto (sublinhado) desabilitado (none)*/
-    color: black; /*cor da letra */
-} 
-
-
+    text-decoration: none;
+    /* decoração do texto (sublinhado) desabilitado (none)*/
+    color: black;
+    /*cor da letra */
+}
 
 
 /* coloca o ponto p chamar uma classe do html */
 
+
 /*primeira sessão para estilização*/
 .section-01 {
-    padding: 300px; /*preenchimento/tamanho da sessão*/
-    display: flex; /*tornando a sessão flex*/
-   justify-content: center; /* justificando conteudo ao centro (horizontal)*/
-   align-items:center ; /* alinhando os itens ao centro vertical*/
-   background-image: url(full-moon-1869760_1280.jpg); /* usada para habilitar uma imagem no fundo da sessão*/
-     background-size: cover; /* utilizada para que a imagem preencha todo o espaço disponivel*/
-     background-repeat: no-repeat; /* para imagem não se repetir dentro da sessão */
-    /* cover - pegar todo o espaço disponivel e  */
-    background-position: center; /* posicionamento da imagem*/
-
+    padding: 300px;
+    /*preenchimento/tamanho da sessão*/
     display: flex;
+    /*tornando a sessão flex*/
     justify-content: center;
+    /* justificando conteudo ao centro (horizontal)*/
     align-items: center;
-
+    /* alinhando os itens ao centro vertical*/
+    background-image: url(full-moon-1869760_1280.jpg);
+    /* usada para habilitar uma imagem no fundo da sessão*/
+    background-size: cover;
+    /* utilizada para que a imagem preencha todo o espaço disponivel*/
+    background-repeat: no-repeat;
+    /* para imagem não se repetir dentro da sessão */
+    /* cover - pegar todo o espaço disponivel e  */
+    background-position: center;
+    /* posicionamento da imagem*/
 }
 
 .section-01 button {
-    width: 150px; /* largura do botão */
-    height: 40px; /* altura do botao*/
-    border-radius: 10px; /*arredodamento da borda*/
-    background-color: transparent;  /*cor do fundo*/
-    
+    width: 150px;
+    /* largura do botão */
+    height: 40px;
+    /* altura do botao*/
+    border-radius: 10px;
+    /*arredodamento da borda*/
+    background-color: transparent;
+    /*cor do fundo*/
+
 }
 
 
 .section-02 {
     padding: 250px;
+    /*preenchimento */
     background-color: #d6a692;
+    /*cor do fundo da sessão*/
 
     display: flex;
+    /*tornando a sessão flex*/
     justify-content: space-evenly;
+    /*justificação do conteúdo*/
+    align-items: center;
+    /*alinhamento dos itens de na vertical - trazendo para o centro*/
 }
+
 
 .section-02 img {
     width: 450px;
+    /* largura do botão */
     height: auto;
+    /* altura do botao*/
 }
+
 
 .section-02 h2 {
     color: white;
+    /* p trocar a cor da letra*/
     font-size: 40px;
-    /* p trocar a cor da letra: color */
 }
+
 
 .section-02 p {
     color: black;
@@ -97,13 +130,18 @@ header nav ul li a {
 
 }
 
-
+/* aqui chamamos nossa terceira e última sessão para estilização */
 .section-03 {
     padding: 250px;
+    /* imagem/preenchimento do rodapé*/
     background-image: url(cloudy-1869753_1280.jpg);
+    /*  */
     background-repeat: no-repeat;
+    /* repetição da imagem estilizada*/
     background-size: cover;
+    /* preenchimento total da imagem na sessão espaço disponível*/
     background-position: center;
+    /* posição em que a imagem será apresentada*/
 }
 
 .section-03 h2 {
@@ -119,34 +157,47 @@ header nav ul li a {
 
 }
 
-
 .section-03 {
     background-image: url(cloudy-1869753_1280.jpg);
     padding: 300px;
     background-repeat: no-repeat;
     background-size: cover;
+    /* cover - pegar todo o espaço disponivel*/
     background-attachment: fixed;
-    /* cover - pegar todo o espaço disponivel e  */
     background-position: center;
 
     display: flex;
+    /*tornando a sessão flex*/
     justify-content: center;
+    /*justificação do conteúdo*/
     align-items: center;
+    /*alinhamento dos itens de na vertical - trazendo para o centro*/
 
-}     
+}
 
 
 .section-03 p {
     display: flex;
+    /*tornando a sessão flex*/
     justify-content: center;
+    /*justificação do conteúdo*/
     color: azure;
     font-size: 25px;
 }
 
 .section-03 h2 {
     display: flex;
+    /*tornando a sessão flex*/
     justify-content: center;
+    /*justificação do conteúdo*/
     color: azure;
     font-size: 25px;
     font-weight: bold;
+}
+
+footer div ul li a {
+    color: white; /*cor da letra*/
+    text-decoration: none;/* decoração do texto*/
+    font-weight: 300px; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }

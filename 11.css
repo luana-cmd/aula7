@@ -1,0 +1,76 @@
+
+
+
+header{
+    background-color: #fdfac7; /*cor do fundo*/
+    padding: 15px; /*tira as barrinhas e dxa em "tela cheia"*/
+    display: flex; /*dxa os ngc do lado*/
+    justify-content: space-between; 
+    align-items: center; /*alinhamento*/
+}
+
+header img {
+    width: 100px ; /*largura*/
+    height: auto ; /*alltura*/
+}
+
+header nav ul { /*estilização da ul (lista não ordenada)*/
+    display: flex;
+}
+
+header nav ul li { /*estilização do li*/
+    list-style: none;
+    margin-right: 10px; /*espaço entre os  li*/
+}
+
+header nav ul li a { /*estilização da ancora*/
+    text-decoration: none;
+    color: black; /*cor da letra*/
+}
+
+
+.section-01 {
+padding: 300px;
+display: flex ;
+justify-content:center;
+align-items: center;
+background-size: cover;
+background-image: url(sunflowers-8351807_1280.jpg);
+background-position: center ;
+background-repeat: no-repeat
+}
+
+.section-01 button {
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: transparent;
+
+}
+
+
+
+.section-02 {
+padding: 250px;
+background-color: #fbea80;
+display: flex;
+justify-content: ;
+align-items: center;
+}
+
+.section-02 img {
+width: 450px;
+height: auto;
+}
+
+.section-02 h2 {
+color: black;
+font-size: 40px;
+}
+
+.section-02 p {
+color: black;
+font-size: 17px;
+font-weight: 900;
+margin-top: 15px;
+}
