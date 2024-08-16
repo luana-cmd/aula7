@@ -1,76 +1,211 @@
+   * {
+       margin: 0;
+       padding: 0;
+       /*zera o preenchimento*/
+       font-family: Verdana, Geneva, Tahoma, sans-serif;
+       /*fonte padrão p toda página*/
+       list-style: none;
+       /*remove os estilos das listas*/
+   }
 
 
-
-header{
-    background-color: #fdfac7; /*cor do fundo*/
-    padding: 15px; /*tira as barrinhas e dxa em "tela cheia"*/
-    display: flex; /*dxa os ngc do lado*/
-    justify-content: space-between; 
-    align-items: center; /*alinhamento*/
-}
-
-header img {
-    width: 100px ; /*largura*/
-    height: auto ; /*alltura*/
-}
-
-header nav ul { /*estilização da ul (lista não ordenada)*/
-    display: flex;
-}
-
-header nav ul li { /*estilização do li*/
-    list-style: none;
-    margin-right: 10px; /*espaço entre os  li*/
-}
-
-header nav ul li a { /*estilização da ancora*/
-    text-decoration: none;
-    color: black; /*cor da letra*/
-}
+   /* cabeçalho */
+   header {
+       background-color: #fdfac7;
+       /*cor do fundo*/
+       padding: 15px;
+       /*tira as barrinhas e dxa em "tela cheia"*/
+       display: flex;
+       /*dxa os ngc do lado*/
+       justify-content: space-between;
+       /*justifica o conteúdo*/
+       align-items: center;
+       /*alinhamento da vertical, deixando no centro*/
+   }
 
 
-.section-01 {
-padding: 300px;
-display: flex ;
-justify-content:center;
-align-items: center;
-background-size: cover;
-background-image: url(sunflowers-8351807_1280.jpg);
-background-position: center ;
-background-repeat: no-repeat
-}
-
-.section-01 button {
-    width: 150px;
-    height: 40px;
-    border-radius: 10px;
-    background-color: transparent;
-
-}
+   /* estilização da imagem */
+   header img {
+       width: 100px;
+       /*largura*/
+       height: auto;
+       /*altura*/
+   }
 
 
+   header nav ul {
+       /*estilização da ul (lista não ordenada)*/
+       display: flex;
+       /* torna a lista não ordenada em flex, deixando os itens lado a lado*/
+   }
 
-.section-02 {
-padding: 250px;
-background-color: #fbea80;
-display: flex;
-justify-content: ;
-align-items: center;
-}
 
-.section-02 img {
-width: 450px;
-height: auto;
-}
+   header nav ul li {
+       /*estilização do li*/
+       list-style: none;
+       /*estilo da lisa desabilitada*/
+       margin-right: 10px;
+       /*espaço entre os  li*/
+   }
 
-.section-02 h2 {
-color: black;
-font-size: 40px;
-}
 
-.section-02 p {
-color: black;
-font-size: 17px;
-font-weight: 900;
-margin-top: 15px;
-}
+   header nav ul li a {
+       /*estilização da ancora*/
+       text-decoration: none;
+       /*decoração do texto (sublinhado) desabilitado (none) */
+       color: black;
+       /*cor da letra*/
+   }
+
+
+   .section-01 {
+       padding: 300px;
+       /*tamanho da sessão*/
+       display: flex;
+       /*dxa a sessão flex*/
+       justify-content: center;
+       /*justificação do conteúdo*/
+       align-items: center;
+       /*alinha os itens no centro*/
+       background-size: cover;
+       /*p imagem usar todo o espaço disponível*/
+       background-image: url(sunflowers-8351807_1280.jpg);
+       /*imaem no fundo*/
+       background-position: center;
+       /*posicionamento da imagem*/
+       background-repeat: no-repeat
+           /*repetição da imagem*/
+   }
+
+   .section-01 button {
+       width: 150px;
+       /*largura do notão*/
+       height: 40px;
+       /*altura do botão*/
+       border-radius: 10px;
+       /*arredondamento da borda*/
+       background-color: transparent;
+       /*cor do fundo*/
+
+   }
+
+
+   .section-02 {
+       padding: 250px;
+       background-color: #fbea80;
+       /*cor do fundo*/
+       display: flex;
+       justify-content: ;
+       align-items: center;
+       /*alinha os itens*/
+   }
+
+   .section-02 img {
+       width: 350px;
+       /*largura*/
+       height: auto;
+       /*altura*/
+   }
+
+   .section-02 h2 {
+       color: black;
+       /*largura do botão*/
+       font-size: 34px;
+       /*altura do botão*/
+   }
+
+   .section-02 p {
+       color: black;
+       /*cor da letra*/
+       font-size: 17px;
+       font-weight: 900;
+       margin-top: 15px;
+   }
+
+
+   .section-03 {
+       padding: 250px;
+       background-image: url(flower-1754823_1920.jpg);
+       background-repeat: no-repeat;
+       /*repetição da imagem*/
+       background-size: cover;
+       /*preenchimento total da imagem*/
+       background-position: center;
+       /*posição da imagem*/
+   }
+
+   .section-03 img {
+       width: 450px;
+       /*largura*/
+       height: auto;
+       /*altura*/
+   }
+
+   .section-03 h2 {
+       color: black;
+       font-size: 30px;
+   }
+
+   .section-03 p {
+       color: black;
+       font-size: 15px;
+       font-weight: 900;
+       margin-top: 15px;
+   }
+
+   .section-03 {
+       padding: 250px;
+       background-image: url(flower-1754823_1920.jpg);
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-attachment: fixed;
+       background-position: center;
+   }
+
+
+   .section-03 p {
+       display: flex;
+       /*dxa a sessão flex*/
+       justify-content: center;
+       /*justifica o conteúdo*/
+       color: black;
+       /*cor da letra*/
+       font-size: 20px;
+       /*tamanho da letra*/
+   }
+
+   .section-03 h2 {
+       display: flex;
+       /*dxa sessão flex*/
+       justify-content: center;
+       /*justifica do conteúdo*/
+       color: black;
+       /*cor da letra*/
+       font-size: 25px;
+       /*tamanho da letra*/
+       font-weight: bold;
+   }
+
+    footer{
+        padding: 25px;
+        background-color: darkgreen;
+    }
+
+    footer nav ul {
+        display: flex;
+        justify-content: center;
+    }
+
+    footer nav ul li {
+        margin-right: 10px;
+    }
+
+    footer nav ul li a {
+       color: black;
+       /*cor da letra*/
+       text-decoration: none;
+       /*decoração do texto*/
+       font-weight: 300px;
+       font-family: Verdana, Geneva, Tahoma, sans-serif;
+       /*ngc da letra*/
+   }

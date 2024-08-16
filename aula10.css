@@ -74,7 +74,6 @@ header nav ul li a {
     /* utilizada para que a imagem preencha todo o espaço disponivel*/
     background-repeat: no-repeat;
     /* para imagem não se repetir dentro da sessão */
-    /* cover - pegar todo o espaço disponivel e  */
     background-position: center;
     /* posicionamento da imagem*/
 }
@@ -118,13 +117,13 @@ header nav ul li a {
 .section-02 h2 {
     color: white;
     /* p trocar a cor da letra*/
-    font-size: 40px;
+    font-size: 20px; /*tamanho da letra*/
 }
 
 
 .section-02 p {
-    color: black;
-    font-size: 17px;
+    color: black; /*cor*/
+    font-size: 17px; /*tamanho da letra*/
     font-weight: 900;
     margin-top: 15px;
 
@@ -135,7 +134,6 @@ header nav ul li a {
     padding: 250px;
     /* imagem/preenchimento do rodapé*/
     background-image: url(cloudy-1869753_1280.jpg);
-    /*  */
     background-repeat: no-repeat;
     /* repetição da imagem estilizada*/
     background-size: cover;
@@ -145,14 +143,14 @@ header nav ul li a {
 }
 
 .section-03 h2 {
-    color: white;
-    font-size: 20px;
+    color: white; /*cor*/
+    font-size: 20px; /*tamanho*/
 
 }
 
 .section-03 p {
-    color: white;
-    font-size: 20px;
+    color: white; /*cor*/
+    font-size: 20px; /*tamanho*/
     margin-top: 15px;
 
 }
@@ -160,11 +158,11 @@ header nav ul li a {
 .section-03 {
     background-image: url(cloudy-1869753_1280.jpg);
     padding: 300px;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; /*repetição*/
     background-size: cover;
     /* cover - pegar todo o espaço disponivel*/
-    background-attachment: fixed;
-    background-position: center;
+    background-attachment: fixed; 
+    background-position: center; /*posição*/
 
     display: flex;
     /*tornando a sessão flex*/
